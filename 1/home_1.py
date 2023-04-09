@@ -9,3 +9,4 @@ number = str(input("Введите трёхзначное число: "))
 total = int(number[0]) + int(number[1]) + int(number[2])
 print(number, "->", total, " ",  "(", number[0],
       "+", number[1], "+", number[2], ")")
+

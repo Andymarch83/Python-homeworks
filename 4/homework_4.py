@@ -15,3 +15,4 @@ if part % length == 0 or part % width == 0:
     print(length, width, part, "->", "yes")
 else:
     print(length, width, part, "->", "no")
+
