@@ -15,10 +15,10 @@ ticket = str(input("Введите номер билета из 6-ти цифр:
 if int(ticket[0]) + int(ticket[1]) + int(ticket[2]) \
         == int(ticket[3]) + int(ticket[4]) + int(ticket[5]):
 
-    print(ticket, "->", "yes")
+    print(f"{ticket} -> yes")
 
 #if int(ticket[0]) + int(ticket[1]) + int(ticket[2]) \
 #        != int(ticket[3]) + int(ticket[4]) + int(ticket[5]):
 else:
-    print(ticket, "->", "no")
+    print(f"{ticket} -> no")
 

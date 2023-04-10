@@ -16,10 +16,10 @@ total = int(input("количество журавликов, сделанное
 x = int(total/6)
 y = int(4*x)
 
-print(total, "->", x, y, x)
+print(f"{total} -> {x} {y} {x}")
 
-print("Петя сделал: ", x)
-print("Катя сделала: ", y)
-print("Серёжа сделал: ", x)
+print(f"Петя сделал: {x}")
+print(f"Катя сделала: {y}")
+print(f"Серёжа сделал: {x}")
 
 

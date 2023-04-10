@@ -12,7 +12,7 @@ width = int(input("Введите количество долек шоколад
 part = int(input("Введите количество желаемых долек: "))
 
 if part % length == 0 or part % width == 0:
-    print(length, width, part, "->", "yes")
+    print(f"{length} {width} {part} -> yes")
 else:
-    print(length, width, part, "->", "no")
+    print(f"{length} {width} {part} -> no")
 
